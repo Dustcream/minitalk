@@ -6,7 +6,7 @@
 /*   By: dmuller <dmuller@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/23 14:26:41 by dmuller           #+#    #+#             */
-/*   Updated: 2023/01/23 14:49:05 by dmuller          ###   ########.fr       */
+/*   Updated: 2023/01/25 10:42:31 by dmuller          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -77,5 +77,4 @@ int	main(int ac, char **av)
 	pid = ft_atoi(av[1]);
 	while (av[2][i])
 		sendbits(pid, av[2][i++]);
-	sendbits(pid, '\n');
 }
